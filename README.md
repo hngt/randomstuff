@@ -19,3 +19,6 @@ Requirements:
 - ffmpeg
 - youtube-dl
 
+## dotfile-linker
+
+Run `go install dotfile-linker.go`. It is a simple configuration manager as it creates symlinks to `$HOME/bin/` from the scripts directory from the running position and creates dotfile symlinks and creates directory structure of `$HOME` of `dotfiles` directory. Configuration can be changed to users need.
